@@ -30,6 +30,6 @@ First, call the endpoint `http:\\localhost:8080\hello`
 
 Second, open the Prometheus Push Gateway `http:\\localhost:9091` and see the measurements, mainly the `hello-counter`
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/larchanjo/poc-spring-prometheus-gateway/blob/master/src/main/resources/static/counter.png "Prometheus Push Gateway | Counter")
 
 Third, *be happy* 
