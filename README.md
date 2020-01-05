@@ -32,4 +32,4 @@ Second, open the Prometheus Push Gateway `http:\\localhost:9091` and see the mea
 
 ![alt text](https://github.com/larchanjo/poc-spring-prometheus-gateway/blob/master/src/main/resources/static/counter.png "Prometheus Push Gateway | Counter")
 
-Third, *be happy* 
+Third, **be happy**
