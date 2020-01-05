@@ -26,10 +26,10 @@ mvn spring-boot:run
 
 # Testing
 
-Call the endpoint `http:\\localhost:8080\hello`
+First, call the endpoint `http:\\localhost:8080\hello`
 
-## Curl
+Second, open the Prometheus Push Gateway `http:\\localhost:9091` and see the measurements, mainly the `hello-counter`
 
-~~~
-curl -i http://localhost:8080/hello
-~~~
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Third, *be happy* 
