@@ -1,6 +1,6 @@
 # Overview
 
-This is a poc using Spring Boot 2.2 and Prometheus Push Gateway with Micrometer.
+This is a poc using [Spring Boot] 2.2 and [Prometheus Push Gateway] with [Micrometer].
 
 The Prometheus Pushgateway exists to allow ephemeral and batch jobs to expose their metrics to Prometheus. Since these kinds of jobs may not exist long enough to be scraped, they can instead push their metrics to a Pushgateway. The Pushgateway then exposes these metrics to Prometheus.
 
@@ -33,3 +33,7 @@ Second, open the Prometheus Push Gateway `http:\\localhost:9091` and see the mea
 ![alt text](https://github.com/larchanjo/poc-spring-prometheus-gateway/blob/master/src/main/resources/static/counter.png "Prometheus Push Gateway | Counter")
 
 Third, **be happy**
+
+[Spring Boot]: https://spring.io/blog/2019/10/16/spring-boot-2-2-0
+[Prometheus Push Gateway]: https://github.com/prometheus/pushgateway
+[Micrometer]: https://github.com/micrometer-metrics/micrometer
